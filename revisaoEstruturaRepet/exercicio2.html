@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número decrescente</title>
+    <style>
+           *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+
+        }
+
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        
+            <img src="./img/matematica.png" alt="">
+        <form action="">
+            <h1>Programa número decrescente</h1>
+            <label for="number">Número</label>
+            <input class="numeros" type="number">
+            <button class="botao">Descer até 1</button>
+            <hr>
+            <p class="retorno"></p>
+        </form>
+    </main>
+
+    <script>
+        const botao = document.querySelector('.botao')
+        const numero = document.querySelector('.numeros').value
+        const retornando = document.querySelector('.retorno')
+
+        botao.addEventListener('click',()=>{
+          let i = 1
+          while(i <= numero.lenght){
+             
+          }
+        })
+
+    </script>
+</body>
+</html>
